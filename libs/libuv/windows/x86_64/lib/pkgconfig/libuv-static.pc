@@ -4,7 +4,7 @@ libdir=/home/haicam/workspace/libs/libuv/windows/x86_64/lib
 includedir=/home/haicam/workspace/libs/libuv/windows/x86_64/include
 
 Name: libuv-static
-Version: 1.44.2
+Version: 1.44.1
 Description: multi-platform support library with a focus on asynchronous I/O.
 URL: http://libuv.org/
 

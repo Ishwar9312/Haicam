@@ -1,7 +1,7 @@
-prefix=/home/haicam/workspace/libs/libuv/linux/i386
+prefix=/home/haicam/workspace/libs/libuv/linux32
 exec_prefix=${prefix}
-libdir=/home/haicam/workspace/libs/libuv/linux/i386/lib
-includedir=/home/haicam/workspace/libs/libuv/linux/i386/include
+libdir=/home/haicam/workspace/libs/libuv/linux32/lib
+includedir=/home/haicam/workspace/libs/libuv/linux32/include
 
 Name: libuv
 Version: 1.44.2
