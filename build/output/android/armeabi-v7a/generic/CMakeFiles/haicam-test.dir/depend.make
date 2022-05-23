@@ -85,6 +85,7 @@ CMakeFiles/haicam-test.dir/test/QRCodeScannerTest.cpp.o: ../../../../../libs/lib
 CMakeFiles/haicam-test.dir/test/QRCodeScannerTest.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/win.h
 CMakeFiles/haicam-test.dir/test/QRCodeScannerTest.cpp.o: ../../../../../test/QRCodeScannerTest.cpp
 
+<<<<<<< Updated upstream
 CMakeFiles/haicam-test.dir/test/RSATest.cpp.o: ../../../../../include/haicam/ByteBuffer.hpp
 CMakeFiles/haicam-test.dir/test/RSATest.cpp.o: ../../../../../include/haicam/RSA.hpp
 CMakeFiles/haicam-test.dir/test/RSATest.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/gtest-death-test.h
@@ -111,6 +112,8 @@ CMakeFiles/haicam-test.dir/test/RSATest.cpp.o: ../../../../../libs/googletest/an
 CMakeFiles/haicam-test.dir/test/RSATest.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/internal/gtest-type-util.h
 CMakeFiles/haicam-test.dir/test/RSATest.cpp.o: ../../../../../test/RSATest.cpp
 
+=======
+>>>>>>> Stashed changes
 CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.o: ../../../../../include/haicam/ByteBuffer.hpp
 CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.o: ../../../../../include/haicam/Context.hpp
 CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.o: ../../../../../include/haicam/Runnable.hpp
@@ -282,5 +285,48 @@ CMakeFiles/haicam-test.dir/test/UDPTest.cpp.o: ../../../../../libs/libuv/android
 CMakeFiles/haicam-test.dir/test/UDPTest.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/win.h
 CMakeFiles/haicam-test.dir/test/UDPTest.cpp.o: ../../../../../test/UDPTest.cpp
 
+<<<<<<< Updated upstream
+=======
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../include/haicam/ByteBuffer.hpp
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../include/haicam/Context.hpp
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../include/haicam/UDP.hpp
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/gtest-death-test.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/gtest-message.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/gtest-param-test.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/gtest-printers.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/gtest-test-part.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/gtest-typed-test.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/gtest.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/gtest_pred_impl.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/gtest_prod.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/internal/custom/gtest-port.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/internal/custom/gtest-printers.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/internal/gtest-death-test-internal.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/internal/gtest-filepath.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/internal/gtest-internal.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/internal/gtest-linked_ptr.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/internal/gtest-param-util-generated.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/internal/gtest-param-util.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/internal/gtest-port-arch.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/internal/gtest-port.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/internal/gtest-string.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/internal/gtest-tuple.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/googletest/android/armeabi-v7a/include/gtest/internal/gtest-type-util.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/aix.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/bsd.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/darwin.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/errno.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/linux.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/os390.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/posix.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/stdint-msvc2008.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/sunos.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/threadpool.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/tree.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/unix.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/version.h
+CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../libs/libuv/android/armeabi-v7a/include/uv/win.h
+>>>>>>> Stashed changes
 CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../test/UDPTest2.cpp
 
