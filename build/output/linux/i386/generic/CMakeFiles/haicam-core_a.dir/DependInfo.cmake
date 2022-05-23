@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/haicam/workspace/libs/jsoncpp/jsoncpp.cpp" "/home/haicam/workspace/build/output/linux/i386/generic/CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.o"
   "/home/haicam/workspace/src/Context.cpp" "/home/haicam/workspace/build/output/linux/i386/generic/CMakeFiles/haicam-core_a.dir/src/Context.cpp.o"
   "/home/haicam/workspace/src/QRCodeScanner.cpp" "/home/haicam/workspace/build/output/linux/i386/generic/CMakeFiles/haicam-core_a.dir/src/QRCodeScanner.cpp.o"
   "/home/haicam/workspace/src/SoundWaveReceiver.cpp" "/home/haicam/workspace/build/output/linux/i386/generic/CMakeFiles/haicam-core_a.dir/src/SoundWaveReceiver.cpp.o"
@@ -20,6 +21,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../../../../libs/libuv/linux/i386/include"
   "../../../../../libs/zbar/linux/i386/include"
   "../../../../../libs/quid/linux/i386/include"
+  "../../../../../libs/curl/linux/i386/include"
+  "../../../../../libs/ffmpeg/linux/i386/include"
+  "../../../../../libs/opencv/linux/i386/include"
+  "../../../../../libs/openssl/linux/i386/include"
+  "../../../../../libs/jsoncpp"
   )
 
 # Targets to which this target links.

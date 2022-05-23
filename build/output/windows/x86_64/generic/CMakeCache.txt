@@ -243,7 +243,7 @@ HAICAM_TARGET:UNINITIALIZED=generic
 haicam-core_BINARY_DIR:STATIC=/home/haicam/workspace/build/output/windows/x86_64/generic
 
 //Dependencies for the target
-haicam-core_LIB_DEPENDS:STATIC=general;uv_a.a;general;wsock32.a;general;ws2_32.a;general;wldap32.a;general;iphlpapi.a;general;secur32.a;general;userenv.a;
+haicam-core_LIB_DEPENDS:STATIC=general;curl.a;general;ssl;general;crypto;general;cares.a;general;avformat.a;general;avcodec.a;general;swscale.a;general;avutil.a;general;avfilter.a;general;swresample.a;general;avdevice.a;general;uv_a.a;general;wsock32.a;general;ws2_32.a;general;wldap32.a;general;iphlpapi.a;general;secur32.a;general;userenv.a;
 
 //Value Computed by CMake
 haicam-core_SOURCE_DIR:STATIC=/home/haicam/workspace

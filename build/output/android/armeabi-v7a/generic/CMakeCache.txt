@@ -237,7 +237,7 @@ HAICAM_TARGET:UNINITIALIZED=generic
 haicam-core_BINARY_DIR:STATIC=/home/haicam/workspace/build/output/android/armeabi-v7a/generic
 
 //Dependencies for the target
-haicam-core_LIB_DEPENDS:STATIC=general;uv_a.a;
+haicam-core_LIB_DEPENDS:STATIC=general;curl.a;general;ssl;general;crypto;general;cares.a;general;avformat.a;general;avcodec.a;general;swscale.a;general;avutil.a;general;avfilter.a;general;swresample.a;general;avdevice.a;general;uv_a.a;
 
 //Value Computed by CMake
 haicam-core_SOURCE_DIR:STATIC=/home/haicam/workspace

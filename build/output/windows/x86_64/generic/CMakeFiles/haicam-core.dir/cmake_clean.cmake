@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/haicam-core.dir/libs/jsoncpp/jsoncpp.cpp.obj"
   "CMakeFiles/haicam-core.dir/src/Context.cpp.obj"
   "CMakeFiles/haicam-core.dir/src/QRCodeScanner.cpp.obj"
   "CMakeFiles/haicam-core.dir/src/SoundWaveReceiver.cpp.obj"

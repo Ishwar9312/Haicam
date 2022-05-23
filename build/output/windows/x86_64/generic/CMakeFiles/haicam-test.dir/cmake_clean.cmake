@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/haicam-test.dir/test/ContextTest.cpp.obj"
   "CMakeFiles/haicam-test.dir/test/QRCodeScannerTest.cpp.obj"
+  "CMakeFiles/haicam-test.dir/test/RSATest.cpp.obj"
   "CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.obj"
   "CMakeFiles/haicam-test.dir/test/TCPTest.cpp.obj"
   "CMakeFiles/haicam-test.dir/test/TimerTest.cpp.obj"

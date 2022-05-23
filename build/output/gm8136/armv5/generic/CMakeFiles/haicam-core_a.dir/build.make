@@ -57,9 +57,22 @@ include CMakeFiles/haicam-core_a.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/haicam-core_a.dir/flags.make
 
+CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.o: CMakeFiles/haicam-core_a.dir/flags.make
+CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.o: ../../../../../libs/jsoncpp/jsoncpp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.o"
+	/usr/src/arm-linux-3.3/toolchain_gnueabi-4.4.0_ARMv5TE/usr/bin/arm-unknown-linux-uclibcgnueabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.o -c /home/haicam/workspace/libs/jsoncpp/jsoncpp.cpp
+
+CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.i"
+	/usr/src/arm-linux-3.3/toolchain_gnueabi-4.4.0_ARMv5TE/usr/bin/arm-unknown-linux-uclibcgnueabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haicam/workspace/libs/jsoncpp/jsoncpp.cpp > CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.i
+
+CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.s"
+	/usr/src/arm-linux-3.3/toolchain_gnueabi-4.4.0_ARMv5TE/usr/bin/arm-unknown-linux-uclibcgnueabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haicam/workspace/libs/jsoncpp/jsoncpp.cpp -o CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.s
+
 CMakeFiles/haicam-core_a.dir/src/Context.cpp.o: CMakeFiles/haicam-core_a.dir/flags.make
 CMakeFiles/haicam-core_a.dir/src/Context.cpp.o: ../../../../../src/Context.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/haicam-core_a.dir/src/Context.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/haicam-core_a.dir/src/Context.cpp.o"
 	/usr/src/arm-linux-3.3/toolchain_gnueabi-4.4.0_ARMv5TE/usr/bin/arm-unknown-linux-uclibcgnueabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/haicam-core_a.dir/src/Context.cpp.o -c /home/haicam/workspace/src/Context.cpp
 
 CMakeFiles/haicam-core_a.dir/src/Context.cpp.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/haicam-core_a.dir/src/Context.cpp.s: cmake_force
 
 CMakeFiles/haicam-core_a.dir/src/QRCodeScanner.cpp.o: CMakeFiles/haicam-core_a.dir/flags.make
 CMakeFiles/haicam-core_a.dir/src/QRCodeScanner.cpp.o: ../../../../../src/QRCodeScanner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/haicam-core_a.dir/src/QRCodeScanner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/haicam-core_a.dir/src/QRCodeScanner.cpp.o"
 	/usr/src/arm-linux-3.3/toolchain_gnueabi-4.4.0_ARMv5TE/usr/bin/arm-unknown-linux-uclibcgnueabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/haicam-core_a.dir/src/QRCodeScanner.cpp.o -c /home/haicam/workspace/src/QRCodeScanner.cpp
 
 CMakeFiles/haicam-core_a.dir/src/QRCodeScanner.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/haicam-core_a.dir/src/QRCodeScanner.cpp.s: cmake_force
 
 CMakeFiles/haicam-core_a.dir/src/SoundWaveReceiver.cpp.o: CMakeFiles/haicam-core_a.dir/flags.make
 CMakeFiles/haicam-core_a.dir/src/SoundWaveReceiver.cpp.o: ../../../../../src/SoundWaveReceiver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/haicam-core_a.dir/src/SoundWaveReceiver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/haicam-core_a.dir/src/SoundWaveReceiver.cpp.o"
 	/usr/src/arm-linux-3.3/toolchain_gnueabi-4.4.0_ARMv5TE/usr/bin/arm-unknown-linux-uclibcgnueabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/haicam-core_a.dir/src/SoundWaveReceiver.cpp.o -c /home/haicam/workspace/src/SoundWaveReceiver.cpp
 
 CMakeFiles/haicam-core_a.dir/src/SoundWaveReceiver.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/haicam-core_a.dir/src/SoundWaveReceiver.cpp.s: cmake_force
 
 CMakeFiles/haicam-core_a.dir/src/TCPClient.cpp.o: CMakeFiles/haicam-core_a.dir/flags.make
 CMakeFiles/haicam-core_a.dir/src/TCPClient.cpp.o: ../../../../../src/TCPClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/haicam-core_a.dir/src/TCPClient.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/haicam-core_a.dir/src/TCPClient.cpp.o"
 	/usr/src/arm-linux-3.3/toolchain_gnueabi-4.4.0_ARMv5TE/usr/bin/arm-unknown-linux-uclibcgnueabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/haicam-core_a.dir/src/TCPClient.cpp.o -c /home/haicam/workspace/src/TCPClient.cpp
 
 CMakeFiles/haicam-core_a.dir/src/TCPClient.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/haicam-core_a.dir/src/TCPClient.cpp.s: cmake_force
 
 CMakeFiles/haicam-core_a.dir/src/TCPConnection.cpp.o: CMakeFiles/haicam-core_a.dir/flags.make
 CMakeFiles/haicam-core_a.dir/src/TCPConnection.cpp.o: ../../../../../src/TCPConnection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/haicam-core_a.dir/src/TCPConnection.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/haicam-core_a.dir/src/TCPConnection.cpp.o"
 	/usr/src/arm-linux-3.3/toolchain_gnueabi-4.4.0_ARMv5TE/usr/bin/arm-unknown-linux-uclibcgnueabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/haicam-core_a.dir/src/TCPConnection.cpp.o -c /home/haicam/workspace/src/TCPConnection.cpp
 
 CMakeFiles/haicam-core_a.dir/src/TCPConnection.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/haicam-core_a.dir/src/TCPConnection.cpp.s: cmake_force
 
 CMakeFiles/haicam-core_a.dir/src/TCPServer.cpp.o: CMakeFiles/haicam-core_a.dir/flags.make
 CMakeFiles/haicam-core_a.dir/src/TCPServer.cpp.o: ../../../../../src/TCPServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/haicam-core_a.dir/src/TCPServer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/haicam-core_a.dir/src/TCPServer.cpp.o"
 	/usr/src/arm-linux-3.3/toolchain_gnueabi-4.4.0_ARMv5TE/usr/bin/arm-unknown-linux-uclibcgnueabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/haicam-core_a.dir/src/TCPServer.cpp.o -c /home/haicam/workspace/src/TCPServer.cpp
 
 CMakeFiles/haicam-core_a.dir/src/TCPServer.cpp.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/haicam-core_a.dir/src/TCPServer.cpp.s: cmake_force
 
 CMakeFiles/haicam-core_a.dir/src/gm8136/Led.cpp.o: CMakeFiles/haicam-core_a.dir/flags.make
 CMakeFiles/haicam-core_a.dir/src/gm8136/Led.cpp.o: ../../../../../src/gm8136/Led.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/haicam-core_a.dir/src/gm8136/Led.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/haicam-core_a.dir/src/gm8136/Led.cpp.o"
 	/usr/src/arm-linux-3.3/toolchain_gnueabi-4.4.0_ARMv5TE/usr/bin/arm-unknown-linux-uclibcgnueabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/haicam-core_a.dir/src/gm8136/Led.cpp.o -c /home/haicam/workspace/src/gm8136/Led.cpp
 
 CMakeFiles/haicam-core_a.dir/src/gm8136/Led.cpp.i: cmake_force
@@ -150,6 +163,7 @@ CMakeFiles/haicam-core_a.dir/src/gm8136/Led.cpp.s: cmake_force
 
 # Object files for target haicam-core_a
 haicam__core_a_OBJECTS = \
+"CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.o" \
 "CMakeFiles/haicam-core_a.dir/src/Context.cpp.o" \
 "CMakeFiles/haicam-core_a.dir/src/QRCodeScanner.cpp.o" \
 "CMakeFiles/haicam-core_a.dir/src/SoundWaveReceiver.cpp.o" \
@@ -161,6 +175,7 @@ haicam__core_a_OBJECTS = \
 # External object files for target haicam-core_a
 haicam__core_a_EXTERNAL_OBJECTS =
 
+libhaicam-core_a.a: CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.o
 libhaicam-core_a.a: CMakeFiles/haicam-core_a.dir/src/Context.cpp.o
 libhaicam-core_a.a: CMakeFiles/haicam-core_a.dir/src/QRCodeScanner.cpp.o
 libhaicam-core_a.a: CMakeFiles/haicam-core_a.dir/src/SoundWaveReceiver.cpp.o
@@ -170,7 +185,7 @@ libhaicam-core_a.a: CMakeFiles/haicam-core_a.dir/src/TCPServer.cpp.o
 libhaicam-core_a.a: CMakeFiles/haicam-core_a.dir/src/gm8136/Led.cpp.o
 libhaicam-core_a.a: CMakeFiles/haicam-core_a.dir/build.make
 libhaicam-core_a.a: CMakeFiles/haicam-core_a.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libhaicam-core_a.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libhaicam-core_a.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/haicam-core_a.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/haicam-core_a.dir/link.txt --verbose=$(VERBOSE)
 

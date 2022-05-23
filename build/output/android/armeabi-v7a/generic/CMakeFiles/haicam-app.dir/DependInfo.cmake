@@ -15,6 +15,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../../../../libs/libuv/android/armeabi-v7a/include"
   "../../../../../libs/zbar/android/armeabi-v7a/include"
   "../../../../../libs/quid/android/armeabi-v7a/include"
+  "../../../../../libs/curl/android/armeabi-v7a/include"
+  "../../../../../libs/ffmpeg/android/armeabi-v7a/include"
+  "../../../../../libs/opencv/android/armeabi-v7a/include"
+  "../../../../../libs/openssl/android/armeabi-v7a/include"
+  "../../../../../libs/jsoncpp"
   )
 
 # Targets to which this target links.

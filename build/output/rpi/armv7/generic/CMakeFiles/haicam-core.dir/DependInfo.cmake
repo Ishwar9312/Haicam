@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/haicam/workspace/libs/jsoncpp/jsoncpp.cpp" "/home/haicam/workspace/build/output/rpi/armv7/generic/CMakeFiles/haicam-core.dir/libs/jsoncpp/jsoncpp.cpp.o"
   "/home/haicam/workspace/src/Context.cpp" "/home/haicam/workspace/build/output/rpi/armv7/generic/CMakeFiles/haicam-core.dir/src/Context.cpp.o"
   "/home/haicam/workspace/src/QRCodeScanner.cpp" "/home/haicam/workspace/build/output/rpi/armv7/generic/CMakeFiles/haicam-core.dir/src/QRCodeScanner.cpp.o"
   "/home/haicam/workspace/src/SoundWaveReceiver.cpp" "/home/haicam/workspace/build/output/rpi/armv7/generic/CMakeFiles/haicam-core.dir/src/SoundWaveReceiver.cpp.o"
@@ -25,6 +26,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../../../../libs/libuv/rpi/armv7/include"
   "../../../../../libs/zbar/rpi/armv7/include"
   "../../../../../libs/quid/rpi/armv7/include"
+  "../../../../../libs/curl/rpi/armv7/include"
+  "../../../../../libs/ffmpeg/rpi/armv7/include"
+  "../../../../../libs/opencv/rpi/armv7/include"
+  "../../../../../libs/openssl/rpi/armv7/include"
+  "../../../../../libs/jsoncpp"
   )
 
 # Targets to which this target links.

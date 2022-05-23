@@ -15,6 +15,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../../../../libs/libuv/rpi/armv7/include"
   "../../../../../libs/zbar/rpi/armv7/include"
   "../../../../../libs/quid/rpi/armv7/include"
+  "../../../../../libs/curl/rpi/armv7/include"
+  "../../../../../libs/ffmpeg/rpi/armv7/include"
+  "../../../../../libs/opencv/rpi/armv7/include"
+  "../../../../../libs/openssl/rpi/armv7/include"
+  "../../../../../libs/jsoncpp"
   )
 
 # Targets to which this target links.

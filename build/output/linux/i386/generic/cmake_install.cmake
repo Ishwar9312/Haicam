@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -57,7 +57,7 @@ file(INSTALL DESTINATION "/home/haicam/workspace/bin/linux/i386/generic" TYPE EX
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/haicam/workspace/bin/linux/i386/generic/haicam-app")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/home/haicam/workspace/bin/linux/i386/generic/haicam-app"
-         OLD_RPATH "/home/haicam/workspace/libs/googletest/linux/i386/lib:/home/haicam/workspace/libs/libuv/linux/i386/lib:/home/haicam/workspace/libs/zbar/linux/i386/lib:/home/haicam/workspace/libs/quid/linux/i386/lib:"
+         OLD_RPATH "/home/haicam/workspace/libs/googletest/linux/i386/lib:/home/haicam/workspace/libs/libuv/linux/i386/lib:/home/haicam/workspace/libs/zbar/linux/i386/lib:/home/haicam/workspace/libs/quid/linux/i386/lib:/home/haicam/workspace/libs/curl/linux/i386/lib:/home/haicam/workspace/libs/ffmpeg/linux/i386/lib:/home/haicam/workspace/libs/opencv/linux/i386/lib:/home/haicam/workspace/libs/openssl/linux/i386/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/haicam/workspace/bin/linux/i386/generic/haicam-app")
@@ -85,7 +85,7 @@ file(INSTALL DESTINATION "/home/haicam/workspace/bin/linux/i386/generic" TYPE EX
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/haicam/workspace/bin/linux/i386/generic/haicam-test")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/home/haicam/workspace/bin/linux/i386/generic/haicam-test"
-         OLD_RPATH "/home/haicam/workspace/libs/googletest/linux/i386/lib:/home/haicam/workspace/libs/libuv/linux/i386/lib:/home/haicam/workspace/libs/zbar/linux/i386/lib:/home/haicam/workspace/libs/quid/linux/i386/lib:"
+         OLD_RPATH "/home/haicam/workspace/libs/googletest/linux/i386/lib:/home/haicam/workspace/libs/libuv/linux/i386/lib:/home/haicam/workspace/libs/zbar/linux/i386/lib:/home/haicam/workspace/libs/quid/linux/i386/lib:/home/haicam/workspace/libs/curl/linux/i386/lib:/home/haicam/workspace/libs/ffmpeg/linux/i386/lib:/home/haicam/workspace/libs/opencv/linux/i386/lib:/home/haicam/workspace/libs/openssl/linux/i386/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/haicam/workspace/bin/linux/i386/generic/haicam-test")

@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -57,7 +57,7 @@ file(INSTALL DESTINATION "/home/haicam/workspace/bin/rpi/armv7/generic" TYPE EXE
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/haicam/workspace/bin/rpi/armv7/generic/haicam-app")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/home/haicam/workspace/bin/rpi/armv7/generic/haicam-app"
-         OLD_RPATH "/home/haicam/workspace/libs/googletest/rpi/armv7/lib:/home/haicam/workspace/libs/libuv/rpi/armv7/lib:/home/haicam/workspace/libs/zbar/rpi/armv7/lib:/home/haicam/workspace/libs/quid/rpi/armv7/lib:"
+         OLD_RPATH "/home/haicam/workspace/libs/googletest/rpi/armv7/lib:/home/haicam/workspace/libs/libuv/rpi/armv7/lib:/home/haicam/workspace/libs/zbar/rpi/armv7/lib:/home/haicam/workspace/libs/quid/rpi/armv7/lib:/home/haicam/workspace/libs/curl/rpi/armv7/lib:/home/haicam/workspace/libs/ffmpeg/rpi/armv7/lib:/home/haicam/workspace/libs/opencv/rpi/armv7/lib:/home/haicam/workspace/libs/openssl/rpi/armv7/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/home/haicam/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-strip" "$ENV{DESTDIR}/home/haicam/workspace/bin/rpi/armv7/generic/haicam-app")
@@ -85,7 +85,7 @@ file(INSTALL DESTINATION "/home/haicam/workspace/bin/rpi/armv7/generic" TYPE EXE
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/haicam/workspace/bin/rpi/armv7/generic/haicam-test")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/home/haicam/workspace/bin/rpi/armv7/generic/haicam-test"
-         OLD_RPATH "/home/haicam/workspace/libs/googletest/rpi/armv7/lib:/home/haicam/workspace/libs/libuv/rpi/armv7/lib:/home/haicam/workspace/libs/zbar/rpi/armv7/lib:/home/haicam/workspace/libs/quid/rpi/armv7/lib:"
+         OLD_RPATH "/home/haicam/workspace/libs/googletest/rpi/armv7/lib:/home/haicam/workspace/libs/libuv/rpi/armv7/lib:/home/haicam/workspace/libs/zbar/rpi/armv7/lib:/home/haicam/workspace/libs/quid/rpi/armv7/lib:/home/haicam/workspace/libs/curl/rpi/armv7/lib:/home/haicam/workspace/libs/ffmpeg/rpi/armv7/lib:/home/haicam/workspace/libs/opencv/rpi/armv7/lib:/home/haicam/workspace/libs/openssl/rpi/armv7/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/home/haicam/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-strip" "$ENV{DESTDIR}/home/haicam/workspace/bin/rpi/armv7/generic/haicam-test")

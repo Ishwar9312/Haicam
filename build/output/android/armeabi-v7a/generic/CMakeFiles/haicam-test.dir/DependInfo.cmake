@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/haicam/workspace/test/ContextTest.cpp" "/home/haicam/workspace/build/output/android/armeabi-v7a/generic/CMakeFiles/haicam-test.dir/test/ContextTest.cpp.o"
   "/home/haicam/workspace/test/QRCodeScannerTest.cpp" "/home/haicam/workspace/build/output/android/armeabi-v7a/generic/CMakeFiles/haicam-test.dir/test/QRCodeScannerTest.cpp.o"
+  "/home/haicam/workspace/test/RSATest.cpp" "/home/haicam/workspace/build/output/android/armeabi-v7a/generic/CMakeFiles/haicam-test.dir/test/RSATest.cpp.o"
   "/home/haicam/workspace/test/SoundWaveReceiverTest.cpp" "/home/haicam/workspace/build/output/android/armeabi-v7a/generic/CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.o"
   "/home/haicam/workspace/test/TCPTest.cpp" "/home/haicam/workspace/build/output/android/armeabi-v7a/generic/CMakeFiles/haicam-test.dir/test/TCPTest.cpp.o"
   "/home/haicam/workspace/test/TimerTest.cpp" "/home/haicam/workspace/build/output/android/armeabi-v7a/generic/CMakeFiles/haicam-test.dir/test/TimerTest.cpp.o"
@@ -21,6 +22,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../../../../libs/libuv/android/armeabi-v7a/include"
   "../../../../../libs/zbar/android/armeabi-v7a/include"
   "../../../../../libs/quid/android/armeabi-v7a/include"
+  "../../../../../libs/curl/android/armeabi-v7a/include"
+  "../../../../../libs/ffmpeg/android/armeabi-v7a/include"
+  "../../../../../libs/opencv/android/armeabi-v7a/include"
+  "../../../../../libs/openssl/android/armeabi-v7a/include"
+  "../../../../../libs/jsoncpp"
   )
 
 # Targets to which this target links.

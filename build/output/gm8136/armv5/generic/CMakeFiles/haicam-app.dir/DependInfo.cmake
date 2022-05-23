@@ -15,6 +15,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../../../../libs/libuv/gm8136/armv5/include"
   "../../../../../libs/zbar/gm8136/armv5/include"
   "../../../../../libs/quid/gm8136/armv5/include"
+  "../../../../../libs/curl/gm8136/armv5/include"
+  "../../../../../libs/ffmpeg/gm8136/armv5/include"
+  "../../../../../libs/opencv/gm8136/armv5/include"
+  "../../../../../libs/openssl/gm8136/armv5/include"
+  "../../../../../libs/jsoncpp"
   )
 
 # Targets to which this target links.

@@ -54,7 +54,7 @@ namespace haicam
 
         bool fillData(char *data, int length, int offset = 0)
         {
-            H_ASSERT(offset + length <= buffer.size());
+     //       H_ASSERT(offset + length <= buffer.size());
 
             if (offset + length > buffer.size())
             {

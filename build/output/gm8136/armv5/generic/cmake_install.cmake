@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -57,7 +57,7 @@ file(INSTALL DESTINATION "/home/haicam/workspace/bin/gm8136/armv5/generic" TYPE 
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/haicam/workspace/bin/gm8136/armv5/generic/haicam-app")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/home/haicam/workspace/bin/gm8136/armv5/generic/haicam-app"
-         OLD_RPATH "/home/haicam/workspace/libs/googletest/gm8136/armv5/lib:/home/haicam/workspace/libs/libuv/gm8136/armv5/lib:/home/haicam/workspace/libs/zbar/gm8136/armv5/lib:/home/haicam/workspace/libs/quid/gm8136/armv5/lib:"
+         OLD_RPATH "/home/haicam/workspace/libs/googletest/gm8136/armv5/lib:/home/haicam/workspace/libs/libuv/gm8136/armv5/lib:/home/haicam/workspace/libs/zbar/gm8136/armv5/lib:/home/haicam/workspace/libs/quid/gm8136/armv5/lib:/home/haicam/workspace/libs/curl/gm8136/armv5/lib:/home/haicam/workspace/libs/ffmpeg/gm8136/armv5/lib:/home/haicam/workspace/libs/opencv/gm8136/armv5/lib:/home/haicam/workspace/libs/openssl/gm8136/armv5/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/src/arm-linux-3.3/toolchain_gnueabi-4.4.0_ARMv5TE/usr/bin/arm-unknown-linux-uclibcgnueabi-strip" "$ENV{DESTDIR}/home/haicam/workspace/bin/gm8136/armv5/generic/haicam-app")
@@ -85,7 +85,7 @@ file(INSTALL DESTINATION "/home/haicam/workspace/bin/gm8136/armv5/generic" TYPE 
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/haicam/workspace/bin/gm8136/armv5/generic/haicam-test")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/home/haicam/workspace/bin/gm8136/armv5/generic/haicam-test"
-         OLD_RPATH "/home/haicam/workspace/libs/googletest/gm8136/armv5/lib:/home/haicam/workspace/libs/libuv/gm8136/armv5/lib:/home/haicam/workspace/libs/zbar/gm8136/armv5/lib:/home/haicam/workspace/libs/quid/gm8136/armv5/lib:"
+         OLD_RPATH "/home/haicam/workspace/libs/googletest/gm8136/armv5/lib:/home/haicam/workspace/libs/libuv/gm8136/armv5/lib:/home/haicam/workspace/libs/zbar/gm8136/armv5/lib:/home/haicam/workspace/libs/quid/gm8136/armv5/lib:/home/haicam/workspace/libs/curl/gm8136/armv5/lib:/home/haicam/workspace/libs/ffmpeg/gm8136/armv5/lib:/home/haicam/workspace/libs/opencv/gm8136/armv5/lib:/home/haicam/workspace/libs/openssl/gm8136/armv5/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/src/arm-linux-3.3/toolchain_gnueabi-4.4.0_ARMv5TE/usr/bin/arm-unknown-linux-uclibcgnueabi-strip" "$ENV{DESTDIR}/home/haicam/workspace/bin/gm8136/armv5/generic/haicam-test")

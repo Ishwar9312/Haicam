@@ -208,6 +208,36 @@ haicam-core_a/fast:
 	$(MAKE) -f CMakeFiles/haicam-core_a.dir/build.make CMakeFiles/haicam-core_a.dir/build
 .PHONY : haicam-core_a/fast
 
+libs/jsoncpp/jsoncpp.o: libs/jsoncpp/jsoncpp.cpp.o
+
+.PHONY : libs/jsoncpp/jsoncpp.o
+
+# target to build an object file
+libs/jsoncpp/jsoncpp.cpp.o:
+	$(MAKE) -f CMakeFiles/haicam-core.dir/build.make CMakeFiles/haicam-core.dir/libs/jsoncpp/jsoncpp.cpp.o
+	$(MAKE) -f CMakeFiles/haicam-core_a.dir/build.make CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.o
+.PHONY : libs/jsoncpp/jsoncpp.cpp.o
+
+libs/jsoncpp/jsoncpp.i: libs/jsoncpp/jsoncpp.cpp.i
+
+.PHONY : libs/jsoncpp/jsoncpp.i
+
+# target to preprocess a source file
+libs/jsoncpp/jsoncpp.cpp.i:
+	$(MAKE) -f CMakeFiles/haicam-core.dir/build.make CMakeFiles/haicam-core.dir/libs/jsoncpp/jsoncpp.cpp.i
+	$(MAKE) -f CMakeFiles/haicam-core_a.dir/build.make CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.i
+.PHONY : libs/jsoncpp/jsoncpp.cpp.i
+
+libs/jsoncpp/jsoncpp.s: libs/jsoncpp/jsoncpp.cpp.s
+
+.PHONY : libs/jsoncpp/jsoncpp.s
+
+# target to generate assembly for a file
+libs/jsoncpp/jsoncpp.cpp.s:
+	$(MAKE) -f CMakeFiles/haicam-core.dir/build.make CMakeFiles/haicam-core.dir/libs/jsoncpp/jsoncpp.cpp.s
+	$(MAKE) -f CMakeFiles/haicam-core_a.dir/build.make CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.s
+.PHONY : libs/jsoncpp/jsoncpp.cpp.s
+
 src/Context.o: src/Context.cpp.o
 
 .PHONY : src/Context.o
@@ -469,6 +499,33 @@ test/QRCodeScannerTest.cpp.s:
 	$(MAKE) -f CMakeFiles/haicam-test.dir/build.make CMakeFiles/haicam-test.dir/test/QRCodeScannerTest.cpp.s
 .PHONY : test/QRCodeScannerTest.cpp.s
 
+test/RSATest.o: test/RSATest.cpp.o
+
+.PHONY : test/RSATest.o
+
+# target to build an object file
+test/RSATest.cpp.o:
+	$(MAKE) -f CMakeFiles/haicam-test.dir/build.make CMakeFiles/haicam-test.dir/test/RSATest.cpp.o
+.PHONY : test/RSATest.cpp.o
+
+test/RSATest.i: test/RSATest.cpp.i
+
+.PHONY : test/RSATest.i
+
+# target to preprocess a source file
+test/RSATest.cpp.i:
+	$(MAKE) -f CMakeFiles/haicam-test.dir/build.make CMakeFiles/haicam-test.dir/test/RSATest.cpp.i
+.PHONY : test/RSATest.cpp.i
+
+test/RSATest.s: test/RSATest.cpp.s
+
+.PHONY : test/RSATest.s
+
+# target to generate assembly for a file
+test/RSATest.cpp.s:
+	$(MAKE) -f CMakeFiles/haicam-test.dir/build.make CMakeFiles/haicam-test.dir/test/RSATest.cpp.s
+.PHONY : test/RSATest.cpp.s
+
 test/SoundWaveReceiverTest.o: test/SoundWaveReceiverTest.cpp.o
 
 .PHONY : test/SoundWaveReceiverTest.o
@@ -620,6 +677,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... haicam-core"
 	@echo "... haicam-core_a"
+	@echo "... libs/jsoncpp/jsoncpp.o"
+	@echo "... libs/jsoncpp/jsoncpp.i"
+	@echo "... libs/jsoncpp/jsoncpp.s"
 	@echo "... src/Context.o"
 	@echo "... src/Context.i"
 	@echo "... src/Context.s"
@@ -647,6 +707,9 @@ help:
 	@echo "... test/QRCodeScannerTest.o"
 	@echo "... test/QRCodeScannerTest.i"
 	@echo "... test/QRCodeScannerTest.s"
+	@echo "... test/RSATest.o"
+	@echo "... test/RSATest.i"
+	@echo "... test/RSATest.s"
 	@echo "... test/SoundWaveReceiverTest.o"
 	@echo "... test/SoundWaveReceiverTest.i"
 	@echo "... test/SoundWaveReceiverTest.s"

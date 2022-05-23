@@ -15,6 +15,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../../../../libs/libuv/windows/i386/include"
   "../../../../../libs/zbar/windows/i386/include"
   "../../../../../libs/quid/windows/i386/include"
+  "../../../../../libs/curl/windows/i386/include"
+  "../../../../../libs/ffmpeg/windows/i386/include"
+  "../../../../../libs/opencv/windows/i386/include"
+  "../../../../../libs/openssl/windows/i386/include"
+  "../../../../../libs/jsoncpp"
   )
 
 # Targets to which this target links.

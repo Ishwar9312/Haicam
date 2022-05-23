@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/haicam/workspace/test/ContextTest.cpp" "/home/haicam/workspace/build/output/ios/arm64/generic/CMakeFiles/haicam-test.dir/test/ContextTest.cpp.o"
   "/home/haicam/workspace/test/QRCodeScannerTest.cpp" "/home/haicam/workspace/build/output/ios/arm64/generic/CMakeFiles/haicam-test.dir/test/QRCodeScannerTest.cpp.o"
+  "/home/haicam/workspace/test/RSATest.cpp" "/home/haicam/workspace/build/output/ios/arm64/generic/CMakeFiles/haicam-test.dir/test/RSATest.cpp.o"
   "/home/haicam/workspace/test/SoundWaveReceiverTest.cpp" "/home/haicam/workspace/build/output/ios/arm64/generic/CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.o"
   "/home/haicam/workspace/test/TCPTest.cpp" "/home/haicam/workspace/build/output/ios/arm64/generic/CMakeFiles/haicam-test.dir/test/TCPTest.cpp.o"
   "/home/haicam/workspace/test/TimerTest.cpp" "/home/haicam/workspace/build/output/ios/arm64/generic/CMakeFiles/haicam-test.dir/test/TimerTest.cpp.o"
@@ -21,6 +22,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../../../../libs/libuv/ios/arm64/include"
   "../../../../../libs/zbar/ios/arm64/include"
   "../../../../../libs/quid/ios/arm64/include"
+  "../../../../../libs/curl/ios/arm64/include"
+  "../../../../../libs/ffmpeg/ios/arm64/include"
+  "../../../../../libs/opencv/ios/arm64/include"
+  "../../../../../libs/openssl/ios/arm64/include"
+  "../../../../../libs/jsoncpp"
   )
 
 # Targets to which this target links.

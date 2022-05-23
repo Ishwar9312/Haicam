@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/haicam/workspace/libs/jsoncpp/jsoncpp.cpp" "/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles/haicam-core_a.dir/libs/jsoncpp/jsoncpp.cpp.o"
   "/home/haicam/workspace/src/Context.cpp" "/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles/haicam-core_a.dir/src/Context.cpp.o"
   "/home/haicam/workspace/src/QRCodeScanner.cpp" "/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles/haicam-core_a.dir/src/QRCodeScanner.cpp.o"
   "/home/haicam/workspace/src/SoundWaveReceiver.cpp" "/home/haicam/workspace/build/output/gm8136/armv5/generic/CMakeFiles/haicam-core_a.dir/src/SoundWaveReceiver.cpp.o"
@@ -21,6 +22,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../../../../libs/libuv/gm8136/armv5/include"
   "../../../../../libs/zbar/gm8136/armv5/include"
   "../../../../../libs/quid/gm8136/armv5/include"
+  "../../../../../libs/curl/gm8136/armv5/include"
+  "../../../../../libs/ffmpeg/gm8136/armv5/include"
+  "../../../../../libs/opencv/gm8136/armv5/include"
+  "../../../../../libs/openssl/gm8136/armv5/include"
+  "../../../../../libs/jsoncpp"
   )
 
 # Targets to which this target links.

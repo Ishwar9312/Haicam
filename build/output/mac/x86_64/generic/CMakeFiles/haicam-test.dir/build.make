@@ -83,9 +83,22 @@ CMakeFiles/haicam-test.dir/test/QRCodeScannerTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/haicam-test.dir/test/QRCodeScannerTest.cpp.s"
 	/home/haicam/toolchain/MacOSX12.3/bin/x86_64-apple-darwin21.4-clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haicam/workspace/test/QRCodeScannerTest.cpp -o CMakeFiles/haicam-test.dir/test/QRCodeScannerTest.cpp.s
 
+CMakeFiles/haicam-test.dir/test/RSATest.cpp.o: CMakeFiles/haicam-test.dir/flags.make
+CMakeFiles/haicam-test.dir/test/RSATest.cpp.o: ../../../../../test/RSATest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/mac/x86_64/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/haicam-test.dir/test/RSATest.cpp.o"
+	/home/haicam/toolchain/MacOSX12.3/bin/x86_64-apple-darwin21.4-clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/haicam-test.dir/test/RSATest.cpp.o -c /home/haicam/workspace/test/RSATest.cpp
+
+CMakeFiles/haicam-test.dir/test/RSATest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/haicam-test.dir/test/RSATest.cpp.i"
+	/home/haicam/toolchain/MacOSX12.3/bin/x86_64-apple-darwin21.4-clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haicam/workspace/test/RSATest.cpp > CMakeFiles/haicam-test.dir/test/RSATest.cpp.i
+
+CMakeFiles/haicam-test.dir/test/RSATest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/haicam-test.dir/test/RSATest.cpp.s"
+	/home/haicam/toolchain/MacOSX12.3/bin/x86_64-apple-darwin21.4-clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haicam/workspace/test/RSATest.cpp -o CMakeFiles/haicam-test.dir/test/RSATest.cpp.s
+
 CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.o: CMakeFiles/haicam-test.dir/flags.make
 CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.o: ../../../../../test/SoundWaveReceiverTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/mac/x86_64/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/mac/x86_64/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.o"
 	/home/haicam/toolchain/MacOSX12.3/bin/x86_64-apple-darwin21.4-clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.o -c /home/haicam/workspace/test/SoundWaveReceiverTest.cpp
 
 CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.s: cmake_force
 
 CMakeFiles/haicam-test.dir/test/TCPTest.cpp.o: CMakeFiles/haicam-test.dir/flags.make
 CMakeFiles/haicam-test.dir/test/TCPTest.cpp.o: ../../../../../test/TCPTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/mac/x86_64/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/haicam-test.dir/test/TCPTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/mac/x86_64/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/haicam-test.dir/test/TCPTest.cpp.o"
 	/home/haicam/toolchain/MacOSX12.3/bin/x86_64-apple-darwin21.4-clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/haicam-test.dir/test/TCPTest.cpp.o -c /home/haicam/workspace/test/TCPTest.cpp
 
 CMakeFiles/haicam-test.dir/test/TCPTest.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/haicam-test.dir/test/TCPTest.cpp.s: cmake_force
 
 CMakeFiles/haicam-test.dir/test/TimerTest.cpp.o: CMakeFiles/haicam-test.dir/flags.make
 CMakeFiles/haicam-test.dir/test/TimerTest.cpp.o: ../../../../../test/TimerTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/mac/x86_64/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/haicam-test.dir/test/TimerTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/mac/x86_64/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/haicam-test.dir/test/TimerTest.cpp.o"
 	/home/haicam/toolchain/MacOSX12.3/bin/x86_64-apple-darwin21.4-clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/haicam-test.dir/test/TimerTest.cpp.o -c /home/haicam/workspace/test/TimerTest.cpp
 
 CMakeFiles/haicam-test.dir/test/TimerTest.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/haicam-test.dir/test/TimerTest.cpp.s: cmake_force
 
 CMakeFiles/haicam-test.dir/test/UDPTest.cpp.o: CMakeFiles/haicam-test.dir/flags.make
 CMakeFiles/haicam-test.dir/test/UDPTest.cpp.o: ../../../../../test/UDPTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/mac/x86_64/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/haicam-test.dir/test/UDPTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/mac/x86_64/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/haicam-test.dir/test/UDPTest.cpp.o"
 	/home/haicam/toolchain/MacOSX12.3/bin/x86_64-apple-darwin21.4-clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/haicam-test.dir/test/UDPTest.cpp.o -c /home/haicam/workspace/test/UDPTest.cpp
 
 CMakeFiles/haicam-test.dir/test/UDPTest.cpp.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/haicam-test.dir/test/UDPTest.cpp.s: cmake_force
 
 CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: CMakeFiles/haicam-test.dir/flags.make
 CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o: ../../../../../test/UDPTest2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/mac/x86_64/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haicam/workspace/build/output/mac/x86_64/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o"
 	/home/haicam/toolchain/MacOSX12.3/bin/x86_64-apple-darwin21.4-clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o -c /home/haicam/workspace/test/UDPTest2.cpp
 
 CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.i: cmake_force
@@ -152,6 +165,7 @@ CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.s: cmake_force
 haicam__test_OBJECTS = \
 "CMakeFiles/haicam-test.dir/test/ContextTest.cpp.o" \
 "CMakeFiles/haicam-test.dir/test/QRCodeScannerTest.cpp.o" \
+"CMakeFiles/haicam-test.dir/test/RSATest.cpp.o" \
 "CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.o" \
 "CMakeFiles/haicam-test.dir/test/TCPTest.cpp.o" \
 "CMakeFiles/haicam-test.dir/test/TimerTest.cpp.o" \
@@ -163,6 +177,7 @@ haicam__test_EXTERNAL_OBJECTS =
 
 haicam-test: CMakeFiles/haicam-test.dir/test/ContextTest.cpp.o
 haicam-test: CMakeFiles/haicam-test.dir/test/QRCodeScannerTest.cpp.o
+haicam-test: CMakeFiles/haicam-test.dir/test/RSATest.cpp.o
 haicam-test: CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.o
 haicam-test: CMakeFiles/haicam-test.dir/test/TCPTest.cpp.o
 haicam-test: CMakeFiles/haicam-test.dir/test/TimerTest.cpp.o
@@ -171,7 +186,7 @@ haicam-test: CMakeFiles/haicam-test.dir/test/UDPTest2.cpp.o
 haicam-test: CMakeFiles/haicam-test.dir/build.make
 haicam-test: libhaicam-core_a.a
 haicam-test: CMakeFiles/haicam-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haicam/workspace/build/output/mac/x86_64/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable haicam-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haicam/workspace/build/output/mac/x86_64/generic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable haicam-test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/haicam-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

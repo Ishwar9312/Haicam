@@ -15,6 +15,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../../../../libs/libuv/android/arm64-v8a/include"
   "../../../../../libs/zbar/android/arm64-v8a/include"
   "../../../../../libs/quid/android/arm64-v8a/include"
+  "../../../../../libs/curl/android/arm64-v8a/include"
+  "../../../../../libs/ffmpeg/android/arm64-v8a/include"
+  "../../../../../libs/opencv/android/arm64-v8a/include"
+  "../../../../../libs/openssl/android/arm64-v8a/include"
+  "../../../../../libs/jsoncpp"
   )
 
 # Targets to which this target links.

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/haicam/workspace/test/ContextTest.cpp" "/home/haicam/workspace/build/output/windows/x86_64/generic/CMakeFiles/haicam-test.dir/test/ContextTest.cpp.obj"
   "/home/haicam/workspace/test/QRCodeScannerTest.cpp" "/home/haicam/workspace/build/output/windows/x86_64/generic/CMakeFiles/haicam-test.dir/test/QRCodeScannerTest.cpp.obj"
+  "/home/haicam/workspace/test/RSATest.cpp" "/home/haicam/workspace/build/output/windows/x86_64/generic/CMakeFiles/haicam-test.dir/test/RSATest.cpp.obj"
   "/home/haicam/workspace/test/SoundWaveReceiverTest.cpp" "/home/haicam/workspace/build/output/windows/x86_64/generic/CMakeFiles/haicam-test.dir/test/SoundWaveReceiverTest.cpp.obj"
   "/home/haicam/workspace/test/TCPTest.cpp" "/home/haicam/workspace/build/output/windows/x86_64/generic/CMakeFiles/haicam-test.dir/test/TCPTest.cpp.obj"
   "/home/haicam/workspace/test/TimerTest.cpp" "/home/haicam/workspace/build/output/windows/x86_64/generic/CMakeFiles/haicam-test.dir/test/TimerTest.cpp.obj"
@@ -21,6 +22,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../../../../libs/libuv/windows/x86_64/include"
   "../../../../../libs/zbar/windows/x86_64/include"
   "../../../../../libs/quid/windows/x86_64/include"
+  "../../../../../libs/curl/windows/x86_64/include"
+  "../../../../../libs/ffmpeg/windows/x86_64/include"
+  "../../../../../libs/opencv/windows/x86_64/include"
+  "../../../../../libs/openssl/windows/x86_64/include"
+  "../../../../../libs/jsoncpp"
   )
 
 # Targets to which this target links.
